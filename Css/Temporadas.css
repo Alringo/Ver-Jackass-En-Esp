@@ -1,0 +1,48 @@
+.Cap1T1,
+.Cap2T1,
+.Cap4T1,
+.Cap5T1,
+.Cap6T1,
+.Cap7T1,
+.Cap8T1{
+    position: relative;
+    left: 340px;
+}
+
+.Cap3T1{
+    box-sizing: content-box;
+    width: 1100px;
+    position: relative;
+    left: 80px;
+}
+
+.Cap1T2,
+.Cap2T2,
+.Cap3T2,
+.Cap4T2,
+.Cap5T2,
+.Cap6T2,
+.Cap7T2,
+.Cap8T2{
+    position: relative;
+    left: 340px;
+}
+
+.Cap1T3,
+.Cap2T3,
+.Cap3T3,
+.Cap4T3,
+.Cap6T3,
+.Cap7T3,
+.Cap8T3{
+    position: relative;
+    left: 340px;
+}
+
+.Cap5T3,
+.Cap9T3{
+    box-sizing: content-box;
+    width: 900px;
+    position: relative;
+    left: 300px;
+}
