@@ -46,3 +46,41 @@
     position: relative;
     left: 300px;
 }
+
+/* ================================================================================================= */
+
+.Siguiente{
+    position: relative;
+    left: 680px;
+    bottom: 50px;
+    border: 1px solid #1565c0;
+    background-color: #1565c0;
+    color: white;
+    padding: 1px 5px 1px 5px ;
+    margin: 0px;
+    border-radius: 100px/50px;
+}
+
+.Anterior{
+    position: relative;
+    left: 585px;
+    bottom: 100px;
+    border: 1px solid #1565c0;
+    background-color: #1565c0;
+    color: white;
+    padding: 1px 5px 1px 5px ;
+    margin: 0px;
+    border-radius: 100px/50px;
+}
+
+.Anterior-Final{
+    position: relative;
+    left: 682px;
+    bottom: 100px;
+    border: 1px solid #1565c0;
+    background-color: #1565c0;
+    color: white;
+    padding: 1px 5px 1px 5px ;
+    margin: 0px;
+    border-radius: 100px/50px;
+}

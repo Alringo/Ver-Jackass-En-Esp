@@ -126,7 +126,8 @@ h5 {
 .Titulo-p-9,
 .Titulo-p-10,
 .Titulo-p-11,
-.Titulo-p-12 {
+.Titulo-p-12,
+.Titulo-p-13 {
     position: relative;
     left: 400px;
     box-sizing: content-box;
@@ -176,7 +177,8 @@ h5 {
 .A9,
 .A10,
 .A11,
-.A12 {
+.A12,
+.A13 {
     padding: 5px;
     margin: 5px;
     box-sizing: content-box;
