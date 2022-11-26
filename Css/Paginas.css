@@ -24,6 +24,14 @@ h1 {
     text-decoration: underline solid var(--sub-linea);
 }
 
+h1,
+h3,
+h4,
+p {
+    color: var(--Texto);
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
 .Icono {
     width: 4rem;
     height: 4rem;
@@ -34,12 +42,29 @@ h1 {
     left: 1rem;
 }
 
-h1,
 h3,
 h4,
 p {
+    position: relative;
+    left: 18rem;
+    bottom: 25rem;
+    box-sizing: content-box;
+    width: 100rem;
+    margin-top: 0rem;
+}
+
+aside>ol {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1rem;
+}
+
+ol li {
+    padding-top: 1rem;
     color: var(--Texto);
-    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 a {
@@ -51,19 +76,14 @@ a:hover {
     color: var(--Hover);
 }
 
+img {
+    border: 0.1rem solid var(--borde);
+}
+
 iframe {
     position: relative;
     left: 35rem;
-    bottom: 1rem;
-}
-
-aside>ol {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 1rem;
+    bottom: 10rem;
 }
 
 div {
@@ -84,34 +104,38 @@ div>ol {
     align-items: center;
 }
 
-ol li {
-    padding-top: 1rem;
-    color: var(--Texto);
-}
-
-.Siguiente {
+.Peli {
     position: relative;
-    bottom: 47rem;
-    left: 101rem;
-    font-size: 2rem;
+    left: 70rem;
+    bottom: 8rem;
 }
 
-.Anterior {
+.Cap {
     position: relative;
-    bottom: 47rem;
-    left: 14rem;
-    font-size: 2rem;
+    left: 8rem;
+    bottom: 10rem;
 }
 
-#Anterior {
+#Cap {
+    box-sizing: content-box;
+    width: 1em;
+    height: 0rem;
     position: relative;
-    bottom: 47rem;
-    left: 24.2rem;
-    font-size: 2rem;
+    left: 70rem;
+    bottom: 30rem;
+    font-size: 10rem;
 }
 
-.Anterior,
-.Siguiente,
-#Anterior {
-    text-decoration: none;
+#Peli {
+    box-sizing: content-box;
+    width: 1rem;
+    height: 0rem;
+    position: relative;
+    top: 20rem;
+    left: 6rem;
+    font-size: 10rem;
+}
+
+p span {
+    color: var(--flechas);
 }
